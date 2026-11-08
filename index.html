@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Among Survivor</title>
+<meta name="description" content="Among Survivor: juego survivor de acción en horizontal. Sobrevive 10 minutos a las hordas de impostores con armas futuristas.">
+<meta name="theme-color" content="#25103a"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="assets/icon-192.png"><link rel="apple-touch-icon" href="assets/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+</head><body><canvas id="g"></canvas><button id="mu" class="b" aria-label="Música de fondo">♪</button><button id="ps" class="b" aria-label="Pausa">II</button><button id="fs" class="b" aria-label="Pantalla completa">⛶</button><div id="ui"></div><div id="tt"></div><div id="rot">Gira tu dispositivo en horizontal para jugar</div>
+<script src="assets/sprites.js"></script>
+<script src="js/game.js"></script>
+<script>if('serviceWorker' in navigator&&/^https?:/.test(location.protocol))addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))</script>
+</body></html>
